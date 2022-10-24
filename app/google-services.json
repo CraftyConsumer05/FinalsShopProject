@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "361549909632",
+    "project_id": "finalsshopdatabase",
+    "storage_bucket": "finalsshopdatabase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361549909632:android:052cafd2f6f1cdb5cda065",
+        "android_client_info": {
+          "package_name": "com.example.finalsshopproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "361549909632-0eb4c8afm6n9erqrs5p9mrjp52ful8c6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3nWJWybiVya9S5VCTTn_-jlyvTHJ8yMw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "361549909632-0eb4c8afm6n9erqrs5p9mrjp52ful8c6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
