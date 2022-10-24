@@ -14,7 +14,7 @@
         android:background="@color/purple_200"
         android:orientation="horizontal">
 
-        <TextView
+        <!--<TextView
             android:id="@+id/title"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
@@ -23,7 +23,7 @@
             android:layout_weight="0"
             android:fontFamily="@font/bebas_neue"
             android:text="ALL SHOP"
-            android:textSize="34sp" />
+            android:textSize="34sp" />-->
 
         <ImageButton
             android:id="@+id/imageButton2"
@@ -31,15 +31,15 @@
             android:layout_width="52dp"
             android:layout_height="match_parent"
             android:layout_weight="0"
-            app:srcCompat="@drawable/home" />
+            android:src="@drawable/home" />
 
         <ImageButton
             android:id="@+id/imageButton3"
             android:layout_width="52dp"
-            android:layout_marginLeft="5dp"
             android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
             android:layout_weight="0"
-            app:srcCompat="@drawable/cart" />
+            android:src="@drawable/cart" />
 
     </LinearLayout>
 
@@ -83,7 +83,7 @@
                 android:layout_margin="10dp"
                 android:contentDescription="hii"
                 android:scaleType="fitXY"
-                android:src="@drawable/item2" />
+                android:src="@drawable/item1" />
 
             <ImageButton
                 android:id="@+id/imageView1"
@@ -93,8 +93,9 @@
                 android:layout_column="0"
                 android:layout_margin="10dp"
                 android:contentDescription="hello"
+                android:onClick="toProductView"
                 android:scaleType="fitXY"
-                android:src="@drawable/item1" />
+                android:src="@drawable/item2" />
 
             <ImageButton
                 android:id="@+id/imageView4"
@@ -105,7 +106,7 @@
                 android:layout_margin="10dp"
                 android:contentDescription="hii"
                 android:scaleType="fitXY"
-                android:src="@drawable/item4" />
+                android:src="@drawable/item3" />
 
             <ImageButton
                 android:id="@+id/imageView3"
@@ -116,9 +117,9 @@
                 android:layout_margin="10dp"
                 android:contentDescription="hello"
                 android:scaleType="fitXY"
-                android:src="@drawable/item3" />
+                android:src="@drawable/item4" />
 
-            <ImageButton
+            <!--<ImageButton
                 android:id="@+id/imageView6"
                 android:layout_width="175dp"
                 android:layout_height="175dp"
@@ -127,7 +128,7 @@
                 android:layout_margin="10dp"
                 android:contentDescription="hi"
                 android:scaleType="fitXY"
-                android:src="@drawable/item6" />
+                android:src="@drawable/item5" />-->
 
             <ImageButton
                 android:id="@+id/imageView5"
@@ -138,9 +139,9 @@
                 android:layout_margin="10dp"
                 android:contentDescription="hello"
                 android:scaleType="fitXY"
-                android:src="@drawable/item5" />
+                android:src="@drawable/item6" />
 
-            <ImageButton
+            <!--<ImageButton
                 android:id="@+id/imageView8"
                 android:layout_width="175dp"
                 android:layout_height="175dp"
@@ -149,9 +150,9 @@
                 android:layout_margin="10dp"
                 android:contentDescription="hi"
                 android:scaleType="fitXY"
-                android:src="@drawable/item8" />
+                android:src="@drawable/item7" />-->
 
-            <ImageButton
+            <!--<ImageButton
                 android:id="@+id/imageView7"
                 android:layout_width="175dp"
                 android:layout_height="175dp"
@@ -160,9 +161,9 @@
                 android:layout_margin="10dp"
                 android:contentDescription="hello"
                 android:scaleType="fitXY"
-                android:src="@drawable/item7" />
+                android:src="@drawable/item8" />-->
 
-            <ImageButton
+            <!--<ImageButton
                 android:id="@+id/imageView10"
                 android:layout_width="175dp"
                 android:layout_height="175dp"
@@ -171,9 +172,9 @@
                 android:layout_margin="10dp"
                 android:contentDescription="hi"
                 android:scaleType="fitXY"
-                android:src="@drawable/item10" />
+                android:src="@drawable/item9" />-->
 
-            <ImageButton
+            <!--<ImageButton
                 android:id="@+id/imageView9"
                 android:layout_width="175dp"
                 android:layout_height="175dp"
@@ -182,9 +183,9 @@
                 android:layout_margin="10dp"
                 android:contentDescription="hello"
                 android:scaleType="fitXY"
-                android:src="@drawable/item9" />
+                android:src="@drawable/item10" />-->
 
-            <ImageButton
+            <!--<ImageButton
                 android:id="@+id/imageView12"
                 android:layout_width="175dp"
                 android:layout_height="175dp"
@@ -193,9 +194,9 @@
                 android:layout_margin="10dp"
                 android:contentDescription="hi"
                 android:scaleType="fitXY"
-                android:src="@drawable/item12" />
+                android:src="@drawable/item11" />-->
 
-            <ImageButton
+            <!--<ImageButton
                 android:id="@+id/imageView11"
                 android:layout_width="175dp"
                 android:layout_height="175dp"
@@ -204,7 +205,7 @@
                 android:layout_margin="10dp"
                 android:contentDescription="hello"
                 android:scaleType="fitXY"
-                android:src="@drawable/item11" />
+                android:src="@drawable/item12" />-->
 
 
         </GridLayout>
@@ -216,7 +217,7 @@
         android:gravity="center"
         android:orientation="horizontal">
 
-        <androidx.appcompat.widget.Toolbar
+        <!--<androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -225,7 +226,7 @@
             android:minHeight="?attr/actionBarSize"
             android:theme="?attr/actionBarTheme">
 
-        </androidx.appcompat.widget.Toolbar>
+        </androidx.appcompat.widget.Toolbar>-->
 
     </LinearLayout>
 </LinearLayout>
