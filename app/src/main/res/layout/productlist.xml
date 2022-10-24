@@ -65,7 +65,7 @@
                 android:layout_row="1"
                 android:layout_column="0"
                 android:layout_margin="10dp"
-                android:contentDescription="hi"
+                android:contentDescription="hii"
                 android:src="@drawable/allshop" />
 
             <ImageView
