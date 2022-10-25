@@ -29,7 +29,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0"
-            android:fontFamily="@font/bubblegum_sans"
+            android:fontFamily="@font/lato"
             android:text="ALL SHOP"
             android:textSize="34sp" />
 
@@ -56,7 +56,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_weight="1"
-            android:fontFamily="@font/bubblegum_sans"
+            android:fontFamily="@font/lato"
             android:text="Products"
             android:textSize="24sp" />
     </LinearLayout>
@@ -96,7 +96,7 @@
                     android:contentDescription="hello"
                     android:onClick="toProductView"
                     android:scaleType="fitXY"
-                    android:src="@drawable/item1"
+                    android:src="@drawable/item2"
                     tools:ignore="UsingOnClickInXml" />
             </LinearLayout>
 
@@ -114,7 +114,7 @@
                     android:contentDescription="hello"
                     android:onClick="toProductView"
                     android:scaleType="fitXY"
-                    android:src="@drawable/item1"
+                    android:src="@drawable/item3"
                     tools:ignore="UsingOnClickInXml" />
 
                 <ImageButton
@@ -125,7 +125,7 @@
                     android:contentDescription="hello"
                     android:onClick="toProductView"
                     android:scaleType="fitXY"
-                    android:src="@drawable/item1"
+                    android:src="@drawable/item4"
                     tools:ignore="UsingOnClickInXml" />
             </LinearLayout>
 
@@ -143,7 +143,7 @@
                     android:contentDescription="hello"
                     android:onClick="toProductView"
                     android:scaleType="fitXY"
-                    android:src="@drawable/item1"
+                    android:src="@drawable/item5"
                     tools:ignore="UsingOnClickInXml" />
 
                 <ImageButton
@@ -154,7 +154,7 @@
                     android:contentDescription="hello"
                     android:onClick="toProductView"
                     android:scaleType="fitXY"
-                    android:src="@drawable/item1"
+                    android:src="@drawable/item6"
                     tools:ignore="UsingOnClickInXml" />
             </LinearLayout>
 
