@@ -66,152 +66,186 @@
         android:layout_width="match_parent"
         android:layout_height="600dp">
 
-        <GridLayout
+
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:columnCount="2"
-            android:rowCount="7"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="10dp"
-            tools:layout_editor_absoluteY="10dp">
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-            <ImageButton
-                android:id="@+id/imageView1"
-                android:layout_width="175dp"
-                android:layout_height="175dp"
-                android:layout_row="0"
-                android:layout_column="0"
-                android:layout_margin="10dp"
-                android:contentDescription="hello"
-                android:onClick="toProductView"
-                android:scaleType="fitXY"
-                android:src="@drawable/item1" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
 
-            <ImageButton
-                android:id="@+id/imageView2"
-                android:layout_width="175dp"
-                android:layout_height="175dp"
-                android:layout_row="0"
-                android:layout_column="1"
-                android:layout_margin="10dp"
-                android:contentDescription="hii"
-                android:onClick="toProductView"
-                android:scaleType="fitXY"
-                android:src="@drawable/item2" />
+                <ImageButton
+                    android:id="@+id/imageView1"
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:layout_margin="10dp"
+                    android:contentDescription="hello"
+                    android:onClick="toProductView"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/item1"
+                    tools:ignore="UsingOnClickInXml" />
 
-            <ImageButton
-                android:id="@+id/imageView4"
-                android:layout_width="175dp"
-                android:layout_height="175dp"
-                android:layout_row="1"
-                android:layout_column="0"
-                android:layout_margin="10dp"
-                android:contentDescription="hii"
-                android:scaleType="fitXY"
-                android:src="@drawable/item3" />
+                <ImageButton
+                    android:id="@+id/imageView1"
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:layout_margin="10dp"
+                    android:contentDescription="hello"
+                    android:onClick="toProductView"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/item1"
+                    tools:ignore="UsingOnClickInXml" />
+            </LinearLayout>
 
-            <ImageButton
-                android:id="@+id/imageView3"
-                android:layout_width="175dp"
-                android:layout_height="175dp"
-                android:layout_row="1"
-                android:layout_column="1"
-                android:layout_margin="10dp"
-                android:contentDescription="hello"
-                android:scaleType="fitXY"
-                android:src="@drawable/item4" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
 
-            <!--<ImageButton
-                android:id="@+id/imageView6"
-                android:layout_width="175dp"
-                android:layout_height="175dp"
-                android:layout_row="2"
-                android:layout_column="1"
-                android:layout_margin="10dp"
-                android:contentDescription="hi"
-                android:scaleType="fitXY"
-                android:src="@drawable/item5" />-->
+                <ImageButton
+                    android:id="@+id/imageView1"
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:layout_margin="10dp"
+                    android:contentDescription="hello"
+                    android:onClick="toProductView"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/item1"
+                    tools:ignore="UsingOnClickInXml" />
 
-            <ImageButton
-                android:id="@+id/imageView5"
-                android:layout_width="175dp"
-                android:layout_height="175dp"
-                android:layout_row="2"
-                android:layout_column="0"
-                android:layout_margin="10dp"
-                android:contentDescription="hello"
-                android:scaleType="fitXY"
-                android:src="@drawable/item6" />
+                <ImageButton
+                    android:id="@+id/imageView1"
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:layout_margin="10dp"
+                    android:contentDescription="hello"
+                    android:onClick="toProductView"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/item1"
+                    tools:ignore="UsingOnClickInXml" />
+            </LinearLayout>
 
-            <!--<ImageButton
-                android:id="@+id/imageView8"
-                android:layout_width="175dp"
-                android:layout_height="175dp"
-                android:layout_row="3"
-                android:layout_column="1"
-                android:layout_margin="10dp"
-                android:contentDescription="hi"
-                android:scaleType="fitXY"
-                android:src="@drawable/item7" />-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
 
-            <!--<ImageButton
-                android:id="@+id/imageView7"
-                android:layout_width="175dp"
-                android:layout_height="175dp"
-                android:layout_row="3"
-                android:layout_column="0"
-                android:layout_margin="10dp"
-                android:contentDescription="hello"
-                android:scaleType="fitXY"
-                android:src="@drawable/item8" />-->
+                <ImageButton
+                    android:id="@+id/imageView1"
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:layout_margin="10dp"
+                    android:contentDescription="hello"
+                    android:onClick="toProductView"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/item1"
+                    tools:ignore="UsingOnClickInXml" />
 
-            <!--<ImageButton
-                android:id="@+id/imageView10"
-                android:layout_width="175dp"
-                android:layout_height="175dp"
-                android:layout_row="4"
-                android:layout_column="1"
-                android:layout_margin="10dp"
-                android:contentDescription="hi"
-                android:scaleType="fitXY"
-                android:src="@drawable/item9" />-->
+                <ImageButton
+                    android:id="@+id/imageView1"
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:layout_margin="10dp"
+                    android:contentDescription="hello"
+                    android:onClick="toProductView"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/item1"
+                    tools:ignore="UsingOnClickInXml" />
+            </LinearLayout>
 
-            <!--<ImageButton
-                android:id="@+id/imageView9"
-                android:layout_width="175dp"
-                android:layout_height="175dp"
-                android:layout_row="4"
-                android:layout_column="0"
-                android:layout_margin="10dp"
-                android:contentDescription="hello"
-                android:scaleType="fitXY"
-                android:src="@drawable/item10" />-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
 
-            <!--<ImageButton
-                android:id="@+id/imageView12"
-                android:layout_width="175dp"
-                android:layout_height="175dp"
-                android:layout_row="5"
-                android:layout_column="1"
-                android:layout_margin="10dp"
-                android:contentDescription="hi"
-                android:scaleType="fitXY"
-                android:src="@drawable/item11" />-->
+                <ImageButton
+                    android:id="@+id/imageView1"
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:layout_margin="10dp"
+                    android:contentDescription="hello"
+                    android:onClick="toProductView"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/item1"
+                    tools:ignore="UsingOnClickInXml" />
 
-            <!--<ImageButton
-                android:id="@+id/imageView11"
-                android:layout_width="175dp"
-                android:layout_height="175dp"
-                android:layout_row="5"
-                android:layout_column="0"
-                android:layout_margin="10dp"
-                android:contentDescription="hello"
-                android:scaleType="fitXY"
-                android:src="@drawable/item12" />-->
+                <ImageButton
+                    android:id="@+id/imageView1"
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:layout_margin="10dp"
+                    android:contentDescription="hello"
+                    android:onClick="toProductView"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/item1"
+                    tools:ignore="UsingOnClickInXml" />
+            </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
 
-        </GridLayout>
+                <ImageButton
+                    android:id="@+id/imageView1"
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:layout_margin="10dp"
+                    android:contentDescription="hello"
+                    android:onClick="toProductView"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/item1"
+                    tools:ignore="UsingOnClickInXml" />
+
+                <ImageButton
+                    android:id="@+id/imageView1"
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:layout_margin="10dp"
+                    android:contentDescription="hello"
+                    android:onClick="toProductView"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/item1"
+                    tools:ignore="UsingOnClickInXml" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageView1"
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:layout_margin="10dp"
+                    android:contentDescription="hello"
+                    android:onClick="toProductView"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/item1"
+                    tools:ignore="UsingOnClickInXml" />
+
+                <ImageButton
+                    android:id="@+id/imageView1"
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:layout_margin="10dp"
+                    android:contentDescription="hello"
+                    android:onClick="toProductView"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/item1"
+                    tools:ignore="UsingOnClickInXml" />
+            </LinearLayout>
+        </LinearLayout>
     </ScrollView>
 
     <LinearLayout
