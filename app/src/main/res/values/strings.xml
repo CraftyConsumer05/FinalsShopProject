@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">FinalProject</string>
-    <string name="item1specs"><![CDATA[Intel Core i5 10300H Processor\n\n8GB DDR4 Memory ( Upgradable )\n\n1TB HDD + 256GB PCIe SSD\n15.6inch FHD 1920X1080 120Hz LED Display\nNVIDIA GTX1650Ti 4GB GDDR6 VRAM\nType-C USB 3.2 (Gen 1) Port\nHDMi Port | Windows 10\nPre-Installed Microsoft Office Home & Student 2019]]></string>
+    <string name="item1specs"><![CDATA[Intel Core i5 10300H Processor\n\n8GB DDR4 Memory ( Upgradable )\n\n1TB HDD + 256GB PCIe SSD\n\n15.6inch FHD 1920X1080 120Hz LED Display\n\nNVIDIA GTX1650Ti 4GB GDDR6 VRAM\n\nType-C USB 3.2 (Gen 1) Port\nHDMi Port | Windows 10\n\nPre-Installed Microsoft Office Home & Student 2019]]></string>
+    <string name="ItemName1">ASUS VIVOBOOK 15</string>
 </resources>

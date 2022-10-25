@@ -47,7 +47,7 @@
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:layout_margin="5dp"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/textView"
@@ -62,59 +62,84 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="285dp"
-        android:layout_marginBottom="10dp"
-        android:gravity="center"
-        android:orientation="horizontal">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="278dp"
-            android:layout_height="283dp"
-            android:layout_margin="10dp"
-            android:scaleType="fitXY"
-            android:src="@drawable/item1"></ImageView>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="285dp"
-        android:layout_marginBottom="10dp"
-        android:orientation="horizontal">
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="285dp">
+            android:layout_height="570dp">
 
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="wrap_content"
-                android:layout_height="246dp"
-                android:layout_margin="25dp"
-                android:layout_weight="1"
-                android:fontFamily="@font/lato"
-                android:text="@string/item1specs"
-                android:textSize="22sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="285dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="278dp"
+                    android:layout_height="283dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/item1"></ImageView>
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bubblegum_sans"
+                    android:gravity="center"
+                    android:text="@string/ItemName1"
+                    android:textColor="#FF0E0E"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/bubblegum_sans"
+                    android:text="@string/item1specs"
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/bubblegum_sans"
+                    android:gravity="center"
+                    android:text="P48,990"
+                    android:textColor="#FF0E0E"
+                    android:textSize="30sp" />
+            </LinearLayout>
+
 
 
         </ScrollView>
 
     </LinearLayout>
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="right"
         android:background="@drawable/gradiantviolet"
+        android:gravity="center"
         android:orientation="horizontal">
 
         <Button
             android:id="@+id/button"
-            android:layout_width="175dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="20dp"
             android:layout_weight="0"
-            android:text="Add to Cart"
             android:fontFamily="@font/bubblegum_sans"
+            android:text="Add to Cart"
             android:textSize="25sp" />
     </LinearLayout>
+
 </LinearLayout>
