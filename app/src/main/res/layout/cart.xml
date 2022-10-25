@@ -64,7 +64,7 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="200dp">
+        android:layout_height="260dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -83,31 +83,101 @@
                     android:layout_width="100dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="Item here"
+                    android:gravity="center"
+                    android:text="Product"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="Price"
                     android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/textView27"
-                    android:layout_width="30dp"
+                    android:layout_width="100dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="right"
-                    android:text="Quantity:"
+                    android:text="Quantity"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/cartitem1"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/priceitem1"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
                     android:textSize="24sp" />
 
                 <EditText
-                    android:id="@+id/editTextNumber"
+                    android:id="@+id/itemquantity1"
                     android:layout_width="10dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
+                    android:gravity="center"
                     android:inputType="number" />
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/cartitem2"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/priceitem2"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/itemquantity2"
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:inputType="number" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:orientation="horizontal">
@@ -117,25 +187,25 @@
                     android:layout_width="100dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="Item here"
+                    android:gravity="center"
                     android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/textView27"
-                    android:layout_width="30dp"
+                    android:layout_width="100dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:gravity="right"
-                    android:text="Quantity:"
+                    android:gravity="center"
+                    android:text="Total Price:"
                     android:textSize="24sp" />
 
-                <EditText
-                    android:id="@+id/editTextNumber"
-                    android:layout_width="10dp"
-                    android:layout_height="wrap_content"
+                <TextView
+                    android:id="@+id/totalprice"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:ems="10"
-                    android:inputType="number" />
+                    android:gravity="center"
+                    android:textSize="24sp" />
 
             </LinearLayout>
 
@@ -182,7 +252,7 @@
 
                 <TextView
                     android:id="@+id/textView25"
-                    android:layout_width="40dp"
+                    android:layout_width="50dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="right"
@@ -207,7 +277,7 @@
 
                 <TextView
                     android:id="@+id/textView25"
-                    android:layout_width="40dp"
+                    android:layout_width="50dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="right"
@@ -233,7 +303,32 @@
 
                 <TextView
                     android:id="@+id/textView25"
-                    android:layout_width="40dp"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="Contact Info:"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Contact Info" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="50dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="right"

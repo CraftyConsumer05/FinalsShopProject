@@ -20,7 +20,7 @@
             android:layout_height="match_parent"
             android:layout_marginRight="50dp"
             android:layout_weight="0"
-            android:onClick="toback"
+            android:onClick="toHome"
             android:src="@drawable/home" />
 
         <TextView
@@ -89,6 +89,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="casual"
                 android:gravity="center"
+                android:text="LENOVO IDEAPAD GAMING 3"
                 android:textColor="#FF0E0E"
                 android:textSize="30sp"
                 android:textStyle="bold" />
@@ -134,6 +135,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="0"
             android:fontFamily="casual"
+            android:onClick="addtoCart"
             android:text="Add to Cart"
             android:textSize="25sp"
             android:textStyle="bold" />

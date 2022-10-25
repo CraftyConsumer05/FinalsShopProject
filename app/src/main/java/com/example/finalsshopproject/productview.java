@@ -17,6 +17,9 @@ public class productview extends Activity {
     TextView productName, productPrice, productDescription;
     ImageView productImage;
     String nameP;
+    public static String sendname1,sendname2;
+    public static float sendprice1,sendprice2;
+    public static int pricedisplay1,pricedisplay2,cartitem=0;
 
     String wattod = productlistform.whichitemcontent;
     @Override
@@ -97,12 +100,210 @@ public class productview extends Activity {
 
     }
 
-    public void toback(View v){
-        Intent intent = new Intent(this, productlistform.class);
+    public void toHome(View v){
+        Intent intent = new Intent(this,MainActivity.class);
         startActivity(intent);
     }
     public void toCart(View v){
         Intent intent = new Intent(this, cartForm.class);
         startActivity(intent);
+    }
+
+    public void addtoCart(View v){
+
+        if(wattod.equals("Itemcont1")){
+            if(cartitem==0){
+                Toast.makeText(productview.this, productName.getText()+" Has Been Added to Cart", Toast.LENGTH_SHORT).show();
+                sendname1 = (String) productName.getText();
+                sendprice1 = 48990;
+                pricedisplay1=(R.string.price1);
+                cartitem++;
+            }else if(cartitem==1){
+                Toast.makeText(productview.this, productName.getText()+" Has Been Added to Cart", Toast.LENGTH_SHORT).show();
+                sendname2 = (String) productName.getText();
+                sendprice2 = 48990;
+                pricedisplay2=(R.string.price1);
+                cartitem++;
+            }else{
+                Toast.makeText(productview.this, "CART IS FULL! PLEASE CHECKOUT FIRST", Toast.LENGTH_SHORT).show();
+            }
+        }else if(wattod.equals("Itemcont2")){
+            if(cartitem==0){
+                Toast.makeText(productview.this, productName.getText()+" Has Been Added to Cart", Toast.LENGTH_SHORT).show();
+                sendname1 = (String) productName.getText();
+                sendprice1 = 46990;
+                pricedisplay1=(R.string.price2);
+                cartitem++;
+            }else if(cartitem==1){
+                Toast.makeText(productview.this, productName.getText()+" Has Been Added to Cart", Toast.LENGTH_SHORT).show();
+                sendname2 = (String) productName.getText();
+                sendprice2 = 46990;
+                pricedisplay2=(R.string.price2);
+                cartitem++;
+            }else{
+                Toast.makeText(productview.this, "CART IS FULL! PLEASE CHECKOUT FIRST", Toast.LENGTH_SHORT).show();
+            }
+        }else if(wattod.equals("Itemcont3")){
+            if(cartitem==0){
+                Toast.makeText(productview.this, productName.getText()+" Has Been Added to Cart", Toast.LENGTH_SHORT).show();
+                sendname1 = (String) productName.getText();
+                sendprice1 = 74990;
+                pricedisplay1=(R.string.price3);
+                cartitem++;
+            }else if(cartitem==1){
+                Toast.makeText(productview.this, productName.getText()+" Has Been Added to Cart", Toast.LENGTH_SHORT).show();
+                sendname2 = (String) productName.getText();
+                sendprice2 = 74990;
+                pricedisplay2=(R.string.price3);
+                cartitem++;
+            }else{
+                Toast.makeText(productview.this, "CART IS FULL! PLEASE CHECKOUT FIRST", Toast.LENGTH_SHORT).show();
+            }
+        }else if(wattod.equals("Itemcont4")){
+            if(cartitem==0){
+                Toast.makeText(productview.this, productName.getText()+" Has Been Added to Cart", Toast.LENGTH_SHORT).show();
+                sendname1 = (String) productName.getText();
+                sendprice1 = 62990;
+                pricedisplay1=(R.string.price4);
+                cartitem++;
+            }else if(cartitem==1){
+                Toast.makeText(productview.this, productName.getText()+" Has Been Added to Cart", Toast.LENGTH_SHORT).show();
+                sendname2 = (String) productName.getText();
+                sendprice2 = 62990;
+                pricedisplay2=(R.string.price4);
+                cartitem++;
+            }else{
+                Toast.makeText(productview.this, "CART IS FULL! PLEASE CHECKOUT FIRST", Toast.LENGTH_SHORT).show();
+            }
+        }else if(wattod.equals("Itemcont5")){
+            if(cartitem==0){
+                Toast.makeText(productview.this, productName.getText()+" Has Been Added to Cart", Toast.LENGTH_SHORT).show();
+                sendname1 = (String) productName.getText();
+                sendprice1 = 86990;
+                pricedisplay1=(R.string.price5);
+                cartitem++;
+            }else if(cartitem==1){
+                Toast.makeText(productview.this, productName.getText()+" Has Been Added to Cart", Toast.LENGTH_SHORT).show();
+                sendname2 = (String) productName.getText();
+                sendprice2 = 86990;
+                pricedisplay2=(R.string.price5);
+                cartitem++;
+            }else{
+                Toast.makeText(productview.this, "CART IS FULL! PLEASE CHECKOUT FIRST", Toast.LENGTH_SHORT).show();
+            }
+        }else if(wattod.equals("Itemcont6")){
+            if(cartitem==0){
+                Toast.makeText(productview.this, productName.getText()+" Has Been Added to Cart", Toast.LENGTH_SHORT).show();
+                sendname1 = (String) productName.getText();
+                sendprice1 = 89990;
+                pricedisplay1=(R.string.price6);
+                cartitem++;
+            }else if(cartitem==1){
+                Toast.makeText(productview.this, productName.getText()+" Has Been Added to Cart", Toast.LENGTH_SHORT).show();
+                sendname2 = (String) productName.getText();
+                sendprice2 = 89990;
+                pricedisplay2=(R.string.price6);
+                cartitem++;
+            }else{
+                Toast.makeText(productview.this, "CART IS FULL! PLEASE CHECKOUT FIRST", Toast.LENGTH_SHORT).show();
+            }
+        }else if(wattod.equals("Itemcont7")){
+            if(cartitem==0){
+                Toast.makeText(productview.this, productName.getText()+" Has Been Added to Cart", Toast.LENGTH_SHORT).show();
+                sendname1 = (String) productName.getText();
+                sendprice1 = 49990;
+                pricedisplay1=(R.string.price7);
+                cartitem++;
+            }else if(cartitem==1){
+                Toast.makeText(productview.this, productName.getText()+" Has Been Added to Cart", Toast.LENGTH_SHORT).show();
+                sendname2 = (String) productName.getText();
+                sendprice2 = 49990;
+                pricedisplay2=(R.string.price7);
+                cartitem++;
+            }else{
+                Toast.makeText(productview.this, "CART IS FULL! PLEASE CHECKOUT FIRST", Toast.LENGTH_SHORT).show();
+            }
+        }else if(wattod.equals("Itemcont8")){
+            if(cartitem==0){
+                Toast.makeText(productview.this, productName.getText()+" Has Been Added to Cart", Toast.LENGTH_SHORT).show();
+                sendname1 = (String) productName.getText();
+                sendprice1 = 38990;
+                pricedisplay1=(R.string.price8);
+                cartitem++;
+            }else if(cartitem==1){
+                Toast.makeText(productview.this, productName.getText()+" Has Been Added to Cart", Toast.LENGTH_SHORT).show();
+                sendname2 = (String) productName.getText();
+                sendprice2 = 38990;
+                pricedisplay2=(R.string.price8);
+                cartitem++;
+            }else{
+                Toast.makeText(productview.this, "CART IS FULL! PLEASE CHECKOUT FIRST", Toast.LENGTH_SHORT).show();
+            }
+        }else if(wattod.equals("Itemcont9")){
+            if(cartitem==0){
+                Toast.makeText(productview.this, productName.getText()+" Has Been Added to Cart", Toast.LENGTH_SHORT).show();
+                sendname1 = (String) productName.getText();
+                sendprice1 = 37990;
+                pricedisplay1=(R.string.price9);
+                cartitem++;
+            }else if(cartitem==1){
+                Toast.makeText(productview.this, productName.getText()+" Has Been Added to Cart", Toast.LENGTH_SHORT).show();
+                sendname2 = (String) productName.getText();
+                sendprice2 = 37990;
+                pricedisplay2=(R.string.price9);
+                cartitem++;
+            }else{
+                Toast.makeText(productview.this, "CART IS FULL! PLEASE CHECKOUT FIRST", Toast.LENGTH_SHORT).show();
+            }
+        }else if(wattod.equals("Itemcont10")){
+            if(cartitem==0){
+                Toast.makeText(productview.this, productName.getText()+" Has Been Added to Cart", Toast.LENGTH_SHORT).show();
+                sendname1 = (String) productName.getText();
+                sendprice1 = 44990;
+                pricedisplay1=(R.string.price10);
+                cartitem++;
+            }else if(cartitem==1){
+                Toast.makeText(productview.this, productName.getText()+" Has Been Added to Cart", Toast.LENGTH_SHORT).show();
+                sendname2 = (String) productName.getText();
+                sendprice2 = 44990;
+                pricedisplay2=(R.string.price10);
+                cartitem++;
+            }else{
+                Toast.makeText(productview.this, "CART IS FULL! PLEASE CHECKOUT FIRST", Toast.LENGTH_SHORT).show();
+            }
+        }else if(wattod.equals("Itemcont11")){
+            if(cartitem==0){
+                Toast.makeText(productview.this, productName.getText()+" Has Been Added to Cart", Toast.LENGTH_SHORT).show();
+                sendname1 = (String) productName.getText();
+                sendprice1 = 50990;
+                pricedisplay1=(R.string.price11);
+                cartitem++;
+            }else if(cartitem==1){
+                Toast.makeText(productview.this, productName.getText()+" Has Been Added to Cart", Toast.LENGTH_SHORT).show();
+                sendname2 = (String) productName.getText();
+                sendprice2 = 50990;
+                pricedisplay2=(R.string.price11);
+                cartitem++;
+            }else{
+                Toast.makeText(productview.this, "CART IS FULL! PLEASE CHECKOUT FIRST", Toast.LENGTH_SHORT).show();
+            }
+        }else if(wattod.equals("Itemcont12")){
+            if(cartitem==0){
+                Toast.makeText(productview.this, productName.getText()+" Has Been Added to Cart", Toast.LENGTH_SHORT).show();
+                sendname1 = (String) productName.getText();
+                sendprice1 = 84990;
+                pricedisplay1=(R.string.price12);
+                cartitem++;
+            }else if(cartitem==1){
+                Toast.makeText(productview.this, productName.getText()+" Has Been Added to Cart", Toast.LENGTH_SHORT).show();
+                sendname2 = (String) productName.getText();
+                sendprice2 = 84990;
+                pricedisplay2=(R.string.price12);
+                cartitem++;
+            }else{
+                Toast.makeText(productview.this, "CART IS FULL! PLEASE CHECKOUT FIRST", Toast.LENGTH_SHORT).show();
+            }
+        }
+
     }
 }
