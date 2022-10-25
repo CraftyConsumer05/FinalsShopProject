@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), ProductList.class);
+                Intent intent = new Intent(getApplicationContext(), productList.class);
                 startActivity(intent);
             }
         });
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), Cart.class);
+                Intent intent = new Intent(getApplicationContext(), cart.class);
                 startActivity(intent);
             }
         });
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         button4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), PurchaseHistory.class);
+                Intent intent = new Intent(getApplicationContext(), purchaseHistory.class);
                 startActivity(intent);
             }
         });

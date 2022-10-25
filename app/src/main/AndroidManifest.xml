@@ -29,10 +29,10 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-        <activity android:name=".ProductList"/>
-        <activity android:name=".ProductCheckout"/>
-        <activity android:name=".PurchaseHistory"/>
-        <activity android:name=".Cart"/>
+        <activity android:name=".productList"/>
+        <activity android:name=".productCheckout"/>
+        <activity android:name=".purchaseHistory"/>
+        <activity android:name=".cart"/>
 
     </application>
 

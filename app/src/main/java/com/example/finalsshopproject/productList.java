@@ -8,7 +8,7 @@ import android.widget.ImageButton;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class ProductList extends AppCompatActivity {
+public class productList extends AppCompatActivity {
     ImageButton imageView1, imageView2, imageView3, imageView4, imageView5, imageView6, imageView7,
     imageView8, imageView9, imageView10, imageView11, imageView12, imageButton2, imageButton3 ;
 
@@ -43,7 +43,7 @@ public class ProductList extends AppCompatActivity {
         imageButton3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), Cart.class);
+                Intent intent = new Intent(getApplicationContext(), cart.class);
                 startActivity(intent);
             }
         });
@@ -51,7 +51,7 @@ public class ProductList extends AppCompatActivity {
         imageView1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), ProductCheckout.class);
+                Intent intent = new Intent(getApplicationContext(), productCheckout.class);
                 startActivity(intent);
             }
         });
@@ -59,7 +59,7 @@ public class ProductList extends AppCompatActivity {
         imageView2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), ProductCheckout.class);
+                Intent intent = new Intent(getApplicationContext(), productCheckout.class);
                 startActivity(intent);
             }
         });
@@ -67,7 +67,7 @@ public class ProductList extends AppCompatActivity {
         imageView3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), ProductCheckout.class);
+                Intent intent = new Intent(getApplicationContext(), productCheckout.class);
                 startActivity(intent);
             }
         });
@@ -75,7 +75,7 @@ public class ProductList extends AppCompatActivity {
         imageView4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), ProductCheckout.class);
+                Intent intent = new Intent(getApplicationContext(), productCheckout.class);
                 startActivity(intent);
             }
         });
@@ -83,7 +83,7 @@ public class ProductList extends AppCompatActivity {
         imageView5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), ProductCheckout.class);
+                Intent intent = new Intent(getApplicationContext(), productCheckout.class);
                 startActivity(intent);
             }
         });
@@ -91,7 +91,7 @@ public class ProductList extends AppCompatActivity {
         imageView6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), ProductCheckout.class);
+                Intent intent = new Intent(getApplicationContext(), productCheckout.class);
                 startActivity(intent);
             }
         });
@@ -99,7 +99,7 @@ public class ProductList extends AppCompatActivity {
         imageView7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), ProductCheckout.class);
+                Intent intent = new Intent(getApplicationContext(), productCheckout.class);
                 startActivity(intent);
             }
         });
@@ -107,7 +107,7 @@ public class ProductList extends AppCompatActivity {
         imageView8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), ProductCheckout.class);
+                Intent intent = new Intent(getApplicationContext(), productCheckout.class);
                 startActivity(intent);
             }
         });
@@ -115,7 +115,7 @@ public class ProductList extends AppCompatActivity {
         imageView9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), ProductCheckout.class);
+                Intent intent = new Intent(getApplicationContext(), productCheckout.class);
                 startActivity(intent);
             }
         });
@@ -123,7 +123,7 @@ public class ProductList extends AppCompatActivity {
         imageView10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), ProductCheckout.class);
+                Intent intent = new Intent(getApplicationContext(), productCheckout.class);
                 startActivity(intent);
             }
         });
@@ -131,7 +131,7 @@ public class ProductList extends AppCompatActivity {
         imageView11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), ProductCheckout.class);
+                Intent intent = new Intent(getApplicationContext(), productCheckout.class);
                 startActivity(intent);
             }
         });
@@ -139,7 +139,7 @@ public class ProductList extends AppCompatActivity {
         imageView12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), ProductCheckout.class);
+                Intent intent = new Intent(getApplicationContext(), productCheckout.class);
                 startActivity(intent);
             }
         });
