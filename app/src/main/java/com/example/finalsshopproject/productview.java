@@ -13,8 +13,8 @@ public class productview extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.product_checkout);
     }
-    public void toHome(View v){
-        Intent intent = new Intent(this,MainActivity.class);
+    public void toback(View v){
+        Intent intent = new Intent(this, productlistform.class);
         startActivity(intent);
     }
     public void toCart(View v){

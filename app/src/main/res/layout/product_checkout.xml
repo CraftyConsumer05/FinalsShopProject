@@ -20,7 +20,7 @@
             android:layout_height="match_parent"
             android:layout_marginRight="50dp"
             android:layout_weight="0"
-            android:onClick="toHome"
+            android:onClick="toback"
             android:src="@drawable/home" />
 
         <TextView
@@ -62,80 +62,72 @@
             android:textStyle="bold" />
     </LinearLayout>
 
-    <LinearLayout
+
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_height="600dp">
 
-        <ScrollView
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="570dp">
+            android:layout_height="285dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="285dp"
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="278dp"
+                android:layout_height="283dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/item2" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
                 android:gravity="center"
-                android:orientation="vertical">
+                android:text="@string/ItemName1"
+                android:textColor="#FF0E0E"
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
-                <ImageView
-                    android:id="@+id/imageView2"
-                    android:layout_width="278dp"
-                    android:layout_height="283dp"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"
-                    android:scaleType="fitXY"
-                    android:src="@drawable/item2" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                android:fontFamily="casual"
+                android:text="@string/item1specs"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold" />
 
-                <TextView
-                    android:id="@+id/textView5"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="casual"
-                    android:gravity="center"
-                    android:text="@string/ItemName1"
-                    android:textColor="#FF0E0E"
-                    android:textSize="30sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/textView2"
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_margin="15dp"
-                    android:layout_weight="1"
-                    android:fontFamily="casual"
-                    android:text="@string/item1specs"
-                    android:textColor="#000000"
-                    android:textSize="22sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/textView6"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="20dp"
-                    android:fontFamily="casual"
-                    android:gravity="center"
-                    android:text="P48,990"
-                    android:textColor="#FF0E0E"
-                    android:textSize="30sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="P48,990"
+                android:textColor="#FF0E0E"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </LinearLayout>
 
 
-
-        </ScrollView>
-
-    </LinearLayout>
-
+    </ScrollView>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/gradiantviolet"
         android:gravity="center"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
         <Button
             android:id="@+id/button"

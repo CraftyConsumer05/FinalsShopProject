@@ -89,7 +89,7 @@
                     android:layout_marginLeft="21dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginRight="21dp"
-                    android:contentDescription="hello"
+                    android:contentDescription="Itemcont1"
                     android:onClick="toProductView"
                     android:scaleType="fitXY"
                     android:src="@drawable/item1" />
@@ -99,7 +99,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="TextView"
+                    android:text="@string/ItemName1"
                     android:textColor="#FF0E0E"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -117,7 +117,7 @@
                     android:layout_marginLeft="21dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginRight="21dp"
-                    android:contentDescription="hii"
+                    android:contentDescription="Itemcont2"
                     android:onClick="toProductView"
                     android:scaleType="fitXY"
                     android:src="@drawable/item2" />
@@ -127,7 +127,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="TextView"
+                    android:text="@string/ItemName2"
                     android:textColor="#FF0E0E"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -146,7 +146,8 @@
                     android:layout_marginLeft="21dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginRight="21dp"
-                    android:contentDescription="hii"
+                    android:contentDescription="Itemcont3"
+                    android:onClick="toProductView"
                     android:scaleType="fitXY"
                     android:src="@drawable/item3" />
 
@@ -155,7 +156,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="TextView"
+                    android:text="@string/ItemName3"
                     android:textColor="#FF0E0E"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -173,7 +174,8 @@
                     android:layout_marginLeft="21dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginRight="21dp"
-                    android:contentDescription="hello"
+                    android:contentDescription="Itemcont4"
+                    android:onClick="toProductView"
                     android:scaleType="fitXY"
                     android:src="@drawable/item4" />
 
@@ -182,7 +184,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="TextView"
+                    android:text="@string/ItemName4"
                     android:textColor="#FF0E0E"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -200,7 +202,8 @@
                     android:layout_marginLeft="21dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginRight="21dp"
-                    android:contentDescription="hello"
+                    android:contentDescription="Itemcont5"
+                    android:onClick="toProductView"
                     android:scaleType="fitXY"
                     android:src="@drawable/item5" />
 
@@ -209,7 +212,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="TextView"
+                    android:text="@string/ItemName5"
                     android:textColor="#FF0E0E"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -227,7 +230,8 @@
                     android:layout_marginLeft="21dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginRight="21dp"
-                    android:contentDescription="hi"
+                    android:contentDescription="Itemcont6"
+                    android:onClick="toProductView"
                     android:scaleType="fitXY"
                     android:src="@drawable/item6" />
 
@@ -236,7 +240,34 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="TextView"
+                    android:text="@string/ItemName6"
+                    android:textColor="#FF0E0E"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imageView7"
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:layout_marginLeft="21dp"
+                    android:layout_marginTop="20dp"
+                    android:contentDescription="Itemcont7"
+                    android:onClick="toProductView"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/item7" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/ItemName7"
                     android:textColor="#FF0E0E"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -254,7 +285,8 @@
                     android:layout_marginLeft="21dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginRight="21dp"
-                    android:contentDescription="hi"
+                    android:contentDescription="Itemcont8"
+                    android:onClick="toProductView"
                     android:scaleType="fitXY"
                     android:src="@drawable/item8" />
 
@@ -263,7 +295,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="TextView"
+                    android:text="@string/ItemName8"
                     android:textColor="#FF0E0E"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -275,21 +307,22 @@
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/imageView7"
+                    android:id="@+id/imageView9"
                     android:layout_width="175dp"
                     android:layout_height="175dp"
                     android:layout_marginLeft="21dp"
                     android:layout_marginTop="20dp"
-                    android:contentDescription="hello"
+                    android:contentDescription="Itemcont9"
+                    android:onClick="toProductView"
                     android:scaleType="fitXY"
-                    android:src="@drawable/item7" />
+                    android:src="@drawable/item9" />
 
                 <TextView
-                    android:id="@+id/textView13"
+                    android:id="@+id/textView15"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="TextView"
+                    android:text="@string/ItemName9"
                     android:textColor="#FF0E0E"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -307,7 +340,8 @@
                     android:layout_marginLeft="21dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginRight="21dp"
-                    android:contentDescription="hi"
+                    android:contentDescription="Itemcont10"
+                    android:onClick="toProductView"
                     android:scaleType="fitXY"
                     android:src="@drawable/item10" />
 
@@ -316,60 +350,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="TextView"
-                    android:textColor="#FF0E0E"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <ImageButton
-                    android:id="@+id/imageView9"
-                    android:layout_width="175dp"
-                    android:layout_height="175dp"
-                    android:layout_marginLeft="21dp"
-                    android:layout_marginTop="20dp"
-                    android:contentDescription="hello"
-                    android:scaleType="fitXY"
-                    android:src="@drawable/item9" />
-
-                <TextView
-                    android:id="@+id/textView15"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="TextView"
-                    android:textColor="#FF0E0E"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <ImageButton
-                    android:id="@+id/imageView12"
-                    android:layout_width="175dp"
-                    android:layout_height="175dp"
-                    android:layout_marginLeft="21dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginRight="21dp"
-                    android:contentDescription="hi"
-                    android:scaleType="fitXY"
-                    android:src="@drawable/item12" />
-
-                <TextView
-                    android:id="@+id/textView16"
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:gravity="center_horizontal|top"
-                    android:text="TextView"
+                    android:text="@string/ItemName10"
                     android:textColor="#FF0E0E"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -386,7 +367,8 @@
                     android:layout_height="175dp"
                     android:layout_marginLeft="21dp"
                     android:layout_marginTop="20dp"
-                    android:contentDescription="hello"
+                    android:contentDescription="Itemcont11"
+                    android:onClick="toProductView"
                     android:scaleType="fitXY"
                     android:src="@drawable/item11" />
 
@@ -395,12 +377,42 @@
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:gravity="center_horizontal|top"
-                    android:text="TextView"
+                    android:text="@string/ItemName11"
                     android:textColor="#FF0E0E"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imageView12"
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:layout_marginLeft="21dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="21dp"
+                    android:contentDescription="Itemcont112"
+                    android:onClick="toProductView"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/item12" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center_horizontal|top"
+                    android:text="@string/ItemName12"
+                    android:textColor="#FF0E0E"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
 
 
         </GridLayout>

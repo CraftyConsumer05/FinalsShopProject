@@ -21,4 +21,9 @@ public class cartForm extends Activity {
         Intent intent = new Intent(this, cartForm.class);
         startActivity(intent);
     }
+
+    public void checkOut(View v){
+        Intent intent = new Intent(this, purchaseReciepts.class);
+        startActivity(intent);
+    }
 }
