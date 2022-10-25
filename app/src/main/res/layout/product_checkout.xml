@@ -75,7 +75,7 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/productImage"
                 android:layout_width="278dp"
                 android:layout_height="283dp"
                 android:layout_marginTop="10dp"
@@ -84,18 +84,17 @@
                 android:src="@drawable/item2" />
 
             <TextView
-                android:id="@+id/textView5"
+                android:id="@+id/productName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="casual"
                 android:gravity="center"
-                android:text="@string/ItemName1"
                 android:textColor="#FF0E0E"
                 android:textSize="30sp"
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/productDescription"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_margin="15dp"
@@ -107,7 +106,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView6"
+                android:id="@+id/productPrice"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
