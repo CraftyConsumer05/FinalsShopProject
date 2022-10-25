@@ -10,6 +10,8 @@ import androidx.annotation.Nullable;
 
 public class productlistform extends Activity {
 
+    public static String whichitemcontent;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,8 +28,7 @@ public class productlistform extends Activity {
     }
 
     public void toProductView(View v){
-            String text = (String) v.getContentDescription();
-            Toast.makeText(productlistform.this, "Value is "+text, Toast.LENGTH_SHORT).show();
+            whichitemcontent = (String) v.getContentDescription();
 
         Intent intent = new Intent(this, productview.class);
         startActivity(intent);

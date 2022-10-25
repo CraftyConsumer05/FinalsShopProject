@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">FinalProject</string>
-    <string name="item1specs"><![CDATA[Intel Core i5 10300H Processor\n\n8GB DDR4 Memory ( Upgradable )\n\n1TB HDD + 256GB PCIe SSD\n\n15.6inch FHD 1920X1080 120Hz LED Display\n\nNVIDIA GTX1650Ti 4GB GDDR6 VRAM\n\nType-C USB 3.2 (Gen 1) Port\nHDMi Port | Windows 10\n\nPre-Installed Microsoft Office Home & Student 2019]]></string>
     <string name="ItemName1">ASUS VIVOBOOK 15</string>
     <string name="ItemName2">LENOVO IDEAPAD GAMING 3</string>
     <string name="ItemName3">PREDATOR HELIOS 300 2021</string>
@@ -13,4 +12,28 @@
     <string name="ItemName10">ACER ASPIRE 7</string>
     <string name="ItemName11">MSI GF63 THIN</string>
     <string name="ItemName12">ASUS TUF DASH F15</string>
+    <string name="item1specs"><![CDATA[Intel Core i5 10300H Processor\n\n8GB DDR4 Memory ( Upgradable )\n\n1TB HDD + 256GB PCIe SSD\n\n15.6inch FHD 1920X1080 120Hz LED Display\n\nNVIDIA GTX1650Ti 4GB GDDR6 VRAM\n\nType-C USB 3.2 (Gen 1) Port\nHDMi Port | Windows 10\n\nPre-Installed Microsoft Office Home & Student 2019]]></string>
+    <string name="item2specs">15.6" 1920x1080 120Hz IPS Display\n\nAMD Ryzen 5 4600H\n\n512GB NVME SSD\n\n8GB DDR4 RAM upgradable to 32GB\n\nNVIDIA GTX 1650Ti\n\nWindows 10 Home</string>
+    <string name="item3specs">Processor: i5 10300H UP TO 4.5GHZ TURBO BOOST!! RAM: 8GB DDR4\n\nStorage: 1TB SATA HDD 7200RPM / 256GB NVMe SSD\n\nGraphics: NVIDIA GEFORCE RTX 3070 8GB DDR6\n\nDisplay: 15.6” FHD IPS NTSC LED BACKLIT + RAPID 144HZ REFRESH RATE</string>
+    <string name="item4specs">15.6 1920X1080 144Hz FHD 45% NTSC DISPLAY\n\nINTEL i5–10500H\n\n512GB NVME SSD\n\n8GB DDR4 RAM ( Upgradable )\n\nNVIDIA GEFORCE RTX 3060 6GB</string>
+    <string name="item5specs">Processor : AMD RYZEN 5 5600H\n\nGraphics Card : NVIDIA GGEFORCE RTX 3060 6GB DDR6 (130W)\n\nDisplay : 16" QHD, 16:10 Aspect Ratio, Anti-Glare Narrow Bezel, 100% sRGB - 165Hz\n\nStorage: 512GB NVME SSD\n\nMemory: 16GB / 32GB DDR4\n\nBattery : 4 Cell Li-Polymer Internal Battery, 80Wh</string>
+    <string name="item6specs">Processor: AMD Ryzen 7 4800H (8 Cores, 16 Threads)\n\nMemory: 8/168/32GB  DDR4\n\nHard Drive: 512GB SSD\n\nGraphics Card: NVIDIA GeForce RTX 3060 6GB\n\nDisplay: 15.6" 2560x1440 IPS QHD 165Hz\n\nOperating System: Windows 11</string>
+    <string name="item7specs">Processor: AMD RYZEN R7–4800H\n\nMemory: 8GB/16GB/32GB RAM\n\nHard Drive: 512GB SSD\n\nGraphics Card: NVIDIA RTX 3050 4GB GDDR6\n\nDisplay: 15.6 INCHES FHD\n\nOperating System: Windows 11</string>
+    <string name="item8specs">Processor: Intel i5 -1135G7\n\nMemory: 8GB / 16GB / 32GB DDR4\n\nStorage:  512gb SSD\n\nGraphics: Intel Iris XE\n\nDisplay:  15.6" IPS FHD Display\n\nOperating System: Licensed Windows 11</string>
+    <string name="item9specs">Processor: AMD Ryzen 5 5500U\n\nMemory: 8GB/16GB/32GB RAM\n\nHard Drive: 512GB SSD\n\nGraphics Card: AMD RADEON GRAPHICS\n\nDisplay: 15.6" 1920x1080 FHD IPS 144Hz\n\nOperating System: Windows 11 HOME\n\nColor: Pale Gold</string>
+    <string name="item10specs">10 ACER ASPIRE 7\n\nProcessor: AMD Ryzen 5 5500U\n\nRAM: 8GB / 16GB / 32GB DDR4\n\nStorage: 512GB NVMe SSD\n\nGraphics: NVIDIA GEFORCE RTX 3050 DDR6\n\nDisplay: 15.6” FHD 1920x1080p\n\nOperating System: Windows 11 Home\n\nFREE BAG AND OPTICAL MOUSE</string>
+    <string name="item11specs">Processor: Intel Core i7–10750H\n\nMemory: 8GB DDR4 (upgradable)\n\nStorage: 512GB NVMe SSD\n\nGraphics: GeForce RTX 3050 MAX-Q 4GB DDR6\n\nKeyboards: Single backlight KB(Red)\n\nDisplay: 15.6-in IPS FHD, 144Hz\n\nOperating System: Windows 10 Home</string>
+    <string name="item12specs">15.6" FHD IPS Display 144Hz\n\nIntel Core i5–11300H\n\n512GB NVME SSD\n\n16GB DDR4 RAM upgradable up to 32GB\n\nNVIDIA RTX 3070\n\nUp to 16 hours battery life\n\nFREEBIES:\n\n> TUF Backpack\n\n> Gaming Keyboard\n\n> Gaming Mouse</string>
+    <string name="price1">₱48,990</string>
+    <string name="price2">₱46,990</string>
+    <string name="price3">₱74,990</string>
+    <string name="price4">₱62,990</string>
+    <string name="price5">₱86,990</string>
+    <string name="price6">₱89,990</string>
+    <string name="price7">₱49,990</string>
+    <string name="price8">₱38,990</string>
+    <string name="price9">₱37,990</string>
+    <string name="price10">₱44,990</string>
+    <string name="price11">₱50,990</string>
+    <string name="price12">₱84,990</string>
 </resources>

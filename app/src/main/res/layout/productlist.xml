@@ -111,7 +111,7 @@
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/imageView2"
+                    android:id="@+id/productImage"
                     android:layout_width="175dp"
                     android:layout_height="175dp"
                     android:layout_marginLeft="21dp"
