@@ -18,4 +18,12 @@ public class productlistform extends Activity {
         Intent intent = new Intent(this, productview.class);
         startActivity(intent);
     }
+    public void toHome(View v){
+        Intent intent = new Intent(this,MainActivity.class);
+        startActivity(intent);
+    }
+    public void toCart(View v){
+        Intent intent = new Intent(this, cartForm.class);
+        startActivity(intent);
+    }
 }

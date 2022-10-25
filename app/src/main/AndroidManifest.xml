@@ -27,6 +27,8 @@
         </activity>
         <activity android:name="productlistform"/>
         <activity android:name="productview"/>
+        <activity android:name="cartForm"/>
+        <activity android:name=".purchaseReciepts"/>
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

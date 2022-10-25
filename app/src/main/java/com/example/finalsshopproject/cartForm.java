@@ -7,11 +7,11 @@ import android.view.View;
 
 import androidx.annotation.Nullable;
 
-public class productview extends Activity {
+public class cartForm extends Activity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.product_checkout);
+        setContentView(R.layout.cart);
     }
     public void toHome(View v){
         Intent intent = new Intent(this,MainActivity.class);

@@ -14,24 +14,25 @@
         android:background="@color/purple_200"
         android:orientation="horizontal">
 
-        <!--<TextView
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="72dp"
+            android:layout_weight="0"
+            android:onClick="toHome"
+            android:src="@drawable/home" />
+
+        <TextView
             android:id="@+id/title"
-            android:layout_width="200dp"
+            android:layout_width="159dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="8dp"
             android:layout_weight="0"
-            android:fontFamily="@font/bebas_neue"
+            android:fontFamily="@font/bubblegum_sans"
             android:text="ALL SHOP"
-            android:textSize="34sp" />-->
-
-        <ImageButton
-            android:id="@+id/imageButton2"
-            android:layout_marginLeft="72dp"
-            android:layout_width="52dp"
-            android:layout_height="match_parent"
-            android:layout_weight="0"
-            android:src="@drawable/home" />
+            android:textSize="34sp" />
 
         <ImageButton
             android:id="@+id/imageButton3"
@@ -39,6 +40,7 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="5dp"
             android:layout_weight="0"
+            android:onClick="toCart"
             android:src="@drawable/cart" />
 
     </LinearLayout>
@@ -75,17 +77,6 @@
             tools:layout_editor_absoluteY="10dp">
 
             <ImageButton
-                android:id="@+id/imageView2"
-                android:layout_width="175dp"
-                android:layout_height="175dp"
-                android:layout_row="0"
-                android:layout_column="1"
-                android:layout_margin="10dp"
-                android:contentDescription="hii"
-                android:scaleType="fitXY"
-                android:src="@drawable/item1" />
-
-            <ImageButton
                 android:id="@+id/imageView1"
                 android:layout_width="175dp"
                 android:layout_height="175dp"
@@ -93,6 +84,18 @@
                 android:layout_column="0"
                 android:layout_margin="10dp"
                 android:contentDescription="hello"
+                android:onClick="toProductView"
+                android:scaleType="fitXY"
+                android:src="@drawable/item1" />
+
+            <ImageButton
+                android:id="@+id/imageView2"
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:layout_margin="10dp"
+                android:contentDescription="hii"
                 android:onClick="toProductView"
                 android:scaleType="fitXY"
                 android:src="@drawable/item2" />

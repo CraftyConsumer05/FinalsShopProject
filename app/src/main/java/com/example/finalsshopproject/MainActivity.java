@@ -20,4 +20,12 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, productlistform.class);
         startActivity(intent);
     }
+    public void toCart(View v){
+        Intent intent = new Intent(this, cartForm.class);
+        startActivity(intent);
+    }
+    public void toReceipt(View v){
+        Intent intent = new Intent(this, purchaseReciepts.class);
+        startActivity(intent);
+    }
 }

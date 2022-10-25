@@ -13,31 +13,33 @@
         android:background="@color/purple_200"
         android:orientation="horizontal">
 
-        <!--<TextView
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="72dp"
+            android:layout_weight="0"
+            android:onClick="toHome"
+            android:src="@drawable/home" />
+
+        <TextView
             android:id="@+id/title"
-            android:layout_width="200dp"
+            android:layout_width="159dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="8dp"
             android:layout_weight="0"
-            android:fontFamily="@font/bebas_neue"
+            android:fontFamily="@font/bubblegum_sans"
             android:text="ALL SHOP"
-            android:textSize="34sp" />-->
-
-        <ImageButton
-            android:id="@+id/imageButton2"
-            android:layout_marginLeft="72dp"
-            android:layout_width="52dp"
-            android:layout_height="match_parent"
-            android:layout_weight="0"
-            android:src="@drawable/home" />
+            android:textSize="34sp" />
 
         <ImageButton
             android:id="@+id/imageButton3"
             android:layout_width="52dp"
-            android:layout_marginLeft="5dp"
             android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
             android:layout_weight="0"
+            android:onClick="toCart"
             android:src="@drawable/cart" />
     </LinearLayout>
 
@@ -71,7 +73,7 @@
             android:layout_height="283dp"
             android:layout_margin="10dp"
             android:scaleType="fitXY"
-            android:src="@drawable/item2"></ImageView>
+            android:src="@drawable/item1"></ImageView>
     </LinearLayout>
 
     <LinearLayout
@@ -79,16 +81,23 @@
         android:layout_height="285dp"
         android:layout_marginBottom="10dp"
         android:orientation="horizontal">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="285dp">
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="wrap_content"
-            android:layout_height="246dp"
-            android:layout_margin="25dp"
-            android:layout_weight="1"
-            android:fontFamily="@font/lato"
-            android:text="Loren Ipsum"
-            android:textSize="22sp" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="246dp"
+                android:layout_margin="25dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/lato"
+                android:text="@string/item1specs"
+                android:textSize="22sp" />
+
+
+        </ScrollView>
+
     </LinearLayout>
 
     <LinearLayout
