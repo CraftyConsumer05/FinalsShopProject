@@ -17,6 +17,8 @@ public class productview extends Activity {
     TextView productName, productPrice, productDescription;
     ImageView productImage;
     String nameP;
+    public static String sendname;
+    public static float sendprice;
 
     String wattod = productlistform.whichitemcontent;
     @Override
@@ -97,12 +99,26 @@ public class productview extends Activity {
 
     }
 
-    public void toback(View v){
-        Intent intent = new Intent(this, productlistform.class);
+    public void toHome(View v){
+        Intent intent = new Intent(this,MainActivity.class);
         startActivity(intent);
     }
     public void toCart(View v){
         Intent intent = new Intent(this, cartForm.class);
         startActivity(intent);
+    }
+
+    public void addtoCart(View v){
+
+        if(wattod.equals("Itemcont1")){
+            Toast.makeText(productview.this, productName.getText()+" Has Been Added to Cart", Toast.LENGTH_SHORT).show();
+            sendname = (String) productName.getText();
+            sendprice = 48990;
+        }else if(wattod.equals("Itemcont2")){
+            Toast.makeText(productview.this, productName.getText()+" Has Been Added to Cart", Toast.LENGTH_SHORT).show();
+            sendname = (String) productName.getText();
+            sendprice = 48990;
+        }
+
     }
 }
