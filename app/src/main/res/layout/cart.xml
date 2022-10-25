@@ -28,9 +28,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0"
-            android:fontFamily="@font/bubblegum_sans"
+            android:fontFamily="casual"
             android:text="ALL SHOP"
-            android:textSize="34sp" />
+            android:textSize="34sp"
+            android:textStyle="bold" />
 
         <ImageButton
             android:id="@+id/imageButton3"
@@ -55,7 +56,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_weight="1"
-            android:fontFamily="@font/bubblegum_sans"
+            android:fontFamily="@font/lato"
             android:text="Cart Items"
             android:textSize="24sp" />
     </LinearLayout>
@@ -119,7 +120,7 @@
             android:layout_marginRight="20dp"
             android:layout_weight="0"
             android:text="Check Out"
-            android:fontFamily="@font/bubblegum_sans"
+            android:fontFamily="@font/lato"
             android:textSize="25sp" />
     </LinearLayout>
 </LinearLayout>

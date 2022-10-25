@@ -28,9 +28,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0"
-            android:fontFamily="@font/bubblegum_sans"
+            android:fontFamily="casual"
             android:text="ALL SHOP"
-            android:textSize="34sp" />
+            android:textSize="34sp"
+            android:textStyle="bold" />
 
         <ImageButton
             android:id="@+id/imageButton3"
@@ -55,9 +56,10 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_weight="1"
-            android:fontFamily="@font/bubblegum_sans"
+            android:fontFamily="casual"
             android:text="Product Information"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -80,20 +82,21 @@
                     android:id="@+id/imageView2"
                     android:layout_width="278dp"
                     android:layout_height="283dp"
-                    android:layout_marginTop="15dp"
+                    android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
                     android:scaleType="fitXY"
-                    android:src="@drawable/item1"></ImageView>
+                    android:src="@drawable/item2" />
 
                 <TextView
                     android:id="@+id/textView5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/bubblegum_sans"
+                    android:fontFamily="casual"
                     android:gravity="center"
                     android:text="@string/ItemName1"
                     android:textColor="#FF0E0E"
-                    android:textSize="30sp" />
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView2"
@@ -101,21 +104,23 @@
                     android:layout_height="0dp"
                     android:layout_margin="15dp"
                     android:layout_weight="1"
-                    android:fontFamily="@font/bubblegum_sans"
+                    android:fontFamily="casual"
                     android:text="@string/item1specs"
                     android:textColor="#000000"
-                    android:textSize="22sp" />
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"
-                    android:fontFamily="@font/bubblegum_sans"
+                    android:fontFamily="casual"
                     android:gravity="center"
                     android:text="P48,990"
                     android:textColor="#FF0E0E"
-                    android:textSize="30sp" />
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
             </LinearLayout>
 
 
@@ -137,9 +142,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0"
-            android:fontFamily="@font/bubblegum_sans"
+            android:fontFamily="casual"
             android:text="Add to Cart"
-            android:textSize="25sp" />
+            android:textSize="25sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
 </LinearLayout>
