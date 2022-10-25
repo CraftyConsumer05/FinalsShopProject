@@ -11,23 +11,22 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@color/purple_200"
+        android:gravity="center"
         android:orientation="horizontal">
 
         <ImageButton
             android:id="@+id/imageButton2"
             android:layout_width="52dp"
             android:layout_height="match_parent"
-            android:layout_marginLeft="72dp"
+            android:layout_marginRight="50dp"
             android:layout_weight="0"
             android:onClick="toHome"
             android:src="@drawable/home" />
 
         <TextView
             android:id="@+id/title"
-            android:layout_width="159dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="8dp"
             android:layout_weight="0"
             android:fontFamily="@font/bubblegum_sans"
             android:text="ALL SHOP"
@@ -37,10 +36,11 @@
             android:id="@+id/imageButton3"
             android:layout_width="52dp"
             android:layout_height="match_parent"
-            android:layout_marginLeft="5dp"
+            android:layout_marginLeft="50dp"
             android:layout_weight="0"
             android:onClick="toCart"
             android:src="@drawable/cart" />
+
     </LinearLayout>
 
     <LinearLayout
@@ -119,6 +119,7 @@
             android:layout_marginRight="20dp"
             android:layout_weight="0"
             android:text="Check Out"
-            android:textSize="16sp" />
+            android:fontFamily="@font/bubblegum_sans"
+            android:textSize="25sp" />
     </LinearLayout>
 </LinearLayout>
