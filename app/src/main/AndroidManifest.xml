@@ -25,9 +25,9 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-        <activity android:name="productlistform"/>
-        <activity android:name="productview"/>
-        <activity android:name="cartForm"/>
+        <activity android:name=".productlistform"/>
+        <activity android:name=".productview"/>
+        <activity android:name=".cartForm"/>
         <activity android:name=".purchaseReciepts"/>
         <meta-data
             android:name="preloaded_fonts"
