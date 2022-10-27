@@ -50,7 +50,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="30dp"
+        android:layout_height="35dp"
         android:layout_margin="5dp"
 
         android:orientation="vertical">
@@ -72,8 +72,8 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:requiresFadingEdge="horizontal|vertical"
-        android:layout_height="600dp">
+        android:layout_height="600dp"
+        android:requiresFadingEdge="horizontal|vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -96,10 +96,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/anton"
-                android:letterSpacing="0.05"
                 android:gravity="center"
+                android:letterSpacing="0.05"
                 android:text="LENOVO IDEAPAD GAMING 3"
-                android:textColor="#00e39b"
+                android:textColor="#00e3df"
                 android:textSize="30sp"
                 android:textStyle="bold" />
 
@@ -123,7 +123,7 @@
                 android:fontFamily="casual"
                 android:gravity="center"
                 android:text="P48,990"
-                android:textColor="#00e39b"
+                android:textColor="#00e3df"
                 android:textSize="30sp"
                 android:textStyle="bold" />
         </LinearLayout>
