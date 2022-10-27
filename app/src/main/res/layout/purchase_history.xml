@@ -4,40 +4,44 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@drawable/pinkfade"
+    android:background="@drawable/darkpink"
     android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@color/purple_200"
+        android:background="@drawable/intensepink"
         android:gravity="center"
         android:orientation="horizontal">
-
-        <ImageButton
-            android:id="@+id/imageButton2"
-            android:layout_width="52dp"
-            android:layout_height="match_parent"
-            android:layout_marginRight="50dp"
-            android:layout_weight="0"
-            android:onClick="toHome"
-            android:src="@drawable/home" />
 
         <TextView
             android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0"
-            android:fontFamily="casual"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="65dp"
+            android:fontFamily="@font/imprima"
             android:text="ALL SHOP"
+            android:textColor="#FFFFFF"
             android:textSize="34sp"
             android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="65dp"
+            android:layout_weight="0"
+            android:onClick="toHome"
+            android:src="@drawable/home" />
+
 
         <ImageButton
             android:id="@+id/imageButton3"
             android:layout_width="52dp"
             android:layout_height="match_parent"
-            android:layout_marginLeft="50dp"
+            android:layout_marginLeft="7dp"
             android:layout_weight="0"
             android:onClick="toCart"
             android:src="@drawable/cart" />
@@ -46,7 +50,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="30dp"
+        android:layout_height="40dp"
         android:layout_margin="5dp"
         android:orientation="horizontal">
 
@@ -56,7 +60,9 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_weight="1"
-            android:fontFamily="@font/lato"
+            android:letterSpacing="0.055"
+            android:fontFamily="@font/anton"
+            android:textColor="#FFFFFF"
             android:text="Purchase History"
             android:textSize="24sp" />
     </LinearLayout>
@@ -72,7 +78,8 @@
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:layout_margin="5dp"
-        android:orientation="horizontal"/>
+        android:orientation="horizontal"
+        android:requiresFadingEdge="horizontal"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -90,6 +97,7 @@
             android:layout_marginBottom="10dp"
             android:layout_weight="1"
             android:fontFamily="@font/lato"
+            android:textColor="#FFFFFF"
             android:text="Reciept here"
             android:textSize="22sp" />
     </LinearLayout>
@@ -98,6 +106,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="right"
-        android:background="@drawable/gradiantviolet"
+        android:background="@drawable/intensepinkrev"
         android:orientation="horizontal"/>
 </LinearLayout>

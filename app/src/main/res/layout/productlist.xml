@@ -4,41 +4,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/pinkfade"
+    android:background="@drawable/lightviolet"
     android:orientation="vertical">
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@color/purple_200"
-        android:gravity="center"
+        android:background="@drawable/intenseviolet"
         android:orientation="horizontal">
-
-        <ImageButton
-            android:id="@+id/imageButton2"
-            android:layout_width="52dp"
-            android:layout_height="match_parent"
-            android:layout_marginRight="50dp"
-            android:layout_weight="0"
-            android:onClick="toHome"
-            android:src="@drawable/home" />
 
         <TextView
             android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0"
-            android:fontFamily="casual"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="65dp"
+            android:fontFamily="@font/imprima"
             android:text="ALL SHOP"
+            android:textColor="#FFFFFF"
             android:textSize="34sp"
             android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="65dp"
+            android:layout_weight="0"
+            android:onClick="toHome"
+            android:src="@drawable/home" />
+
 
         <ImageButton
             android:id="@+id/imageButton3"
             android:layout_width="52dp"
             android:layout_height="match_parent"
-            android:layout_marginLeft="50dp"
+            android:layout_marginLeft="7dp"
             android:layout_weight="0"
             android:onClick="toCart"
             android:src="@drawable/cart" />
@@ -56,14 +59,17 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="casual"
+            android:fontFamily="@font/anton"
             android:text="Products"
+            android:textColor="#FFFFFF"
+            android:letterSpacing="0.055"
             android:textSize="28sp"
             android:textStyle="bold" />
     </LinearLayout>
 
     <ScrollView
         android:layout_width="match_parent"
+        android:requiresFadingEdge="horizontal|vertical"
         android:layout_height="600dp">
 
 
@@ -100,7 +106,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="@string/ItemName1"
-                    android:textColor="#FF0E0E"
+                    android:textColor="#00e39b"
                     android:textSize="20sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -128,7 +134,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="@string/ItemName2"
-                    android:textColor="#FF0E0E"
+                    android:textColor="#00e39b"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
@@ -157,7 +163,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="@string/ItemName3"
-                    android:textColor="#FF0E0E"
+                    android:textColor="#00e39b"
                     android:textSize="20sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -185,7 +191,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="@string/ItemName4"
-                    android:textColor="#FF0E0E"
+                    android:textColor="#00e39b"
                     android:textSize="20sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -213,7 +219,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="@string/ItemName5"
-                    android:textColor="#FF0E0E"
+                    android:textColor="#00e39b"
                     android:textSize="20sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -241,7 +247,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="@string/ItemName6"
-                    android:textColor="#FF0E0E"
+                    android:textColor="#00e39b"
                     android:textSize="20sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -268,7 +274,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="@string/ItemName7"
-                    android:textColor="#FF0E0E"
+                    android:textColor="#00e39b"
                     android:textSize="20sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -296,7 +302,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="@string/ItemName8"
-                    android:textColor="#FF0E0E"
+                    android:textColor="#00e39b"
                     android:textSize="20sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -323,7 +329,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="@string/ItemName9"
-                    android:textColor="#FF0E0E"
+                    android:textColor="#00e39b"
                     android:textSize="20sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -351,7 +357,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="@string/ItemName10"
-                    android:textColor="#FF0E0E"
+                    android:textColor="#00e39b"
                     android:textSize="20sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -378,7 +384,7 @@
                     android:layout_height="50dp"
                     android:gravity="center_horizontal|top"
                     android:text="@string/ItemName11"
-                    android:textColor="#FF0E0E"
+                    android:textColor="#00e39b"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
@@ -407,7 +413,7 @@
                     android:layout_height="50dp"
                     android:gravity="center_horizontal|top"
                     android:text="@string/ItemName12"
-                    android:textColor="#FF0E0E"
+                    android:textColor="#00e39b"
                     android:textSize="20sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -422,6 +428,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
+        android:background="@drawable/intensevioletrev"
         android:orientation="horizontal">
 
         <!--<androidx.appcompat.widget.Toolbar
