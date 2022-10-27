@@ -4,44 +4,40 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@drawable/darkpurple"
+    android:background="@drawable/pinkfade"
     android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@drawable/intenseviolet"
+        android:background="@color/purple_200"
         android:gravity="center"
         android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="50dp"
+            android:layout_weight="0"
+            android:onClick="toHome"
+            android:src="@drawable/home" />
 
         <TextView
             android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0"
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="65dp"
-            android:fontFamily="@font/imprima"
+            android:fontFamily="casual"
             android:text="ALL SHOP"
-            android:textColor="#FFFFFF"
             android:textSize="34sp"
             android:textStyle="bold" />
-
-        <ImageButton
-            android:id="@+id/imageButton2"
-            android:layout_width="52dp"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="65dp"
-            android:layout_weight="0"
-            android:onClick="toHome"
-            android:src="@drawable/home" />
-
 
         <ImageButton
             android:id="@+id/imageButton3"
             android:layout_width="52dp"
             android:layout_height="match_parent"
-            android:layout_marginLeft="7dp"
+            android:layout_marginLeft="50dp"
             android:layout_weight="0"
             android:onClick="toCart"
             android:src="@drawable/cart" />
@@ -50,7 +46,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="30dp"
         android:layout_margin="5dp"
         android:orientation="horizontal">
 
@@ -60,9 +56,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_weight="1"
-            android:fontFamily="@font/anton"
-            android:letterSpacing="0.055"
-            android:textColor="#00e39b"
+            android:fontFamily="@font/lato"
             android:text="Cart Items"
             android:textSize="24sp" />
 
@@ -90,7 +84,6 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:textColor="#FFFFFF"
                     android:text="Product"
                     android:textSize="24sp" />
 
@@ -100,7 +93,6 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="right"
-                    android:textColor="#FFFFFF"
                     android:text="Price"
                     android:textSize="24sp" />
 
@@ -110,7 +102,6 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="right"
-                    android:textColor="#FFFFFF"
                     android:text="Quantity"
                     android:textSize="24sp" />
 
@@ -129,7 +120,6 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:textColor="#FFFFFF"
                     android:textSize="20sp" />
 
                 <TextView
@@ -138,7 +128,6 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:textColor="#FFFFFF"
                     android:textSize="24sp" />
 
                 <EditText
@@ -149,7 +138,7 @@
                     android:ems="10"
                     android:gravity="center"
                     android:inputType="number"
-                    android:textColor="#FFFFFF"
+                    android:textColor="#000000"
                     android:textSize="24sp" />
 
             </LinearLayout>
@@ -167,7 +156,6 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:textColor="#FFFFFF"
                     android:textSize="20sp" />
 
                 <TextView
@@ -176,7 +164,6 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:textColor="#FFFFFF"
                     android:textSize="24sp" />
 
                 <EditText
@@ -187,7 +174,7 @@
                     android:ems="10"
                     android:gravity="center"
                     android:inputType="number"
-                    android:textColor="#FFFFFF"
+                    android:textColor="#000000"
                     android:textSize="24sp" />
 
             </LinearLayout>
@@ -199,14 +186,13 @@
                 android:layout_weight="1"
                 android:orientation="horizontal">
 
-                <TextView
-                    android:id="@+id/textView19"
+                <Button
+                    android:id="@+id/button5"
                     android:layout_width="100dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:gravity="center"
-                    android:textColor="#FFFFFF"
-                    android:textSize="24sp" />
+                    android:onClick="gettingtotal"
+                    android:text="Get Total" />
 
                 <TextView
                     android:id="@+id/textView27"
@@ -215,7 +201,6 @@
                     android:layout_weight="1"
                     android:gravity="center"
                     android:text="Total Price:"
-                    android:textColor="#FFFFFF"
                     android:textSize="24sp" />
 
                 <TextView
@@ -224,7 +209,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:textColor="#FFFFFF"
+                    android:textColor="#000000"
                     android:textSize="24sp" />
 
             </LinearLayout>
@@ -248,14 +233,13 @@
             android:layout_weight="1"
             android:fontFamily="@font/lato"
             android:text="Buyer Information"
-            android:textColor="#00e39b"
             android:textSize="22sp"
             android:textStyle="bold" />
     </LinearLayout>
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="325dp">
+        android:layout_height="335dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -278,18 +262,16 @@
                     android:layout_weight="1"
                     android:gravity="right"
                     android:text="Name:"
-                    android:textColor="#FFFFFF"
                     android:textSize="20sp" />
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName2"
+                    android:id="@+id/nameinput"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:textColor="#FFFFFF"
-                    android:text="Name" />
+                    android:textColor="#020202" />
             </LinearLayout>
 
             <LinearLayout
@@ -305,18 +287,16 @@
                     android:layout_weight="1"
                     android:gravity="right"
                     android:text="Address"
-                    android:textColor="#FFFFFF"
                     android:textSize="20sp" />
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName2"
+                    android:id="@+id/adressinput"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:textColor="#FFFFFF"
-                    android:text="Adress" />
+                    android:textColor="#020202" />
 
             </LinearLayout>
 
@@ -333,18 +313,16 @@
                     android:layout_weight="1"
                     android:gravity="right"
                     android:text="Contact Info:"
-                    android:textColor="#FFFFFF"
                     android:textSize="20sp" />
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName2"
+                    android:id="@+id/contactinput"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:textColor="#FFFFFF"
-                    android:text="Contact Info" />
+                    android:textColor="#020202" />
             </LinearLayout>
 
             <LinearLayout
@@ -360,18 +338,17 @@
                     android:layout_weight="1"
                     android:gravity="right"
                     android:text="Cash:"
-                    android:textColor="#FFFFFF"
                     android:textSize="20sp" />
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName2"
+                    android:id="@+id/cashinput"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="textPersonName"
-                    android:textColor="#FFFFFF"
-                    android:text="Cash" />
+                    android:inputType="numberDecimal"
+                    android:textColor="#000000" />
+
             </LinearLayout>
 
         </LinearLayout>
@@ -381,7 +358,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/intenseviolet"
+        android:background="@drawable/gradiantviolet"
         android:gravity="center"
         android:orientation="horizontal">
 
