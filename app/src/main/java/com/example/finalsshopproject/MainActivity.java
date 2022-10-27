@@ -9,6 +9,8 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+
+    public static int transcode =1000;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
