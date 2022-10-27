@@ -137,7 +137,9 @@
                     android:layout_weight="1"
                     android:ems="10"
                     android:gravity="center"
-                    android:inputType="number" />
+                    android:inputType="number"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
 
             </LinearLayout>
 
@@ -171,7 +173,9 @@
                     android:layout_weight="1"
                     android:ems="10"
                     android:gravity="center"
-                    android:inputType="number" />
+                    android:inputType="number"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
 
             </LinearLayout>
 
@@ -182,13 +186,13 @@
                 android:layout_weight="1"
                 android:orientation="horizontal">
 
-                <TextView
-                    android:id="@+id/textView19"
+                <Button
+                    android:id="@+id/button5"
                     android:layout_width="100dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:gravity="center"
-                    android:textSize="24sp" />
+                    android:onClick="gettingtotal"
+                    android:text="Get Total" />
 
                 <TextView
                     android:id="@+id/textView27"
@@ -205,6 +209,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
+                    android:textColor="#000000"
                     android:textSize="24sp" />
 
             </LinearLayout>
@@ -260,13 +265,13 @@
                     android:textSize="20sp" />
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName2"
+                    android:id="@+id/nameinput"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:text="Name" />
+                    android:textColor="#020202" />
             </LinearLayout>
 
             <LinearLayout
@@ -285,13 +290,13 @@
                     android:textSize="20sp" />
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName2"
+                    android:id="@+id/adressinput"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:text="Adress" />
+                    android:textColor="#020202" />
 
             </LinearLayout>
 
@@ -311,13 +316,13 @@
                     android:textSize="20sp" />
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName2"
+                    android:id="@+id/contactinput"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:text="Contact Info" />
+                    android:textColor="#020202" />
             </LinearLayout>
 
             <LinearLayout
@@ -336,13 +341,14 @@
                     android:textSize="20sp" />
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName2"
+                    android:id="@+id/cashinput"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="Cash" />
+                    android:inputType="numberDecimal"
+                    android:textColor="#000000" />
+
             </LinearLayout>
 
         </LinearLayout>
