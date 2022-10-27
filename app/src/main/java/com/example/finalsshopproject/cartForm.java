@@ -21,7 +21,6 @@ public class cartForm extends Activity {
     TextView cartitem1, cartitem2, priceitem1,priceitem2, totalpricelabel;
     EditText itemquantity1, itemquantity2, nameinput, addressinput,contactinput, cashinput;
     float cash, totalprice, userchange;
-    int transcode=1000;
 
     FirebaseDatabase rootNode;
     DatabaseReference reference;
@@ -91,12 +90,12 @@ public class cartForm extends Activity {
     }
 
     public void checkOut(View v){
-        transcode++;
+
         if(!totalpricelabel.getText().toString().isEmpty()){
             if((Float.parseFloat((cashinput.getText().toString().trim())))>totalprice){
                 if(!nameinput.getText().toString().isEmpty()&&!addressinput.getText().toString().isEmpty()&&!contactinput.getText().toString().isEmpty()){
                     userchange = (Float.parseFloat((cashinput.getText().toString().trim())))-totalprice;
-
+                    MainActivity.transcode=MainActivity.transcode+1;
                     HashMap<String, Object>map = new HashMap<>();
 
                     map.put("purchasedItem1",cartitem1.getText().toString());
@@ -112,9 +111,10 @@ public class cartForm extends Activity {
                     map.put("buyerContact",contactinput.getText().toString());
                     map.put("buyerCash",cashinput.getText().toString());
                     map.put("UserChange",userchange);
+                    map.put("transcode",MainActivity.transcode);
 
-                    FirebaseDatabase.getInstance().getReference("receipts").child("transation"+transcode).updateChildren(map);
-
+                    FirebaseDatabase.getInstance().getReference("receipts").child("transaction"+MainActivity.transcode).updateChildren(map);
+                    Toast.makeText(cartForm.this, "Code is"+ MainActivity.transcode, Toast.LENGTH_SHORT).show();
 
                     Toast.makeText(cartForm.this, "Thank you for your Purchase", Toast.LENGTH_SHORT).show();
                     productview.cartitem=0;
