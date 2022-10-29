@@ -69,7 +69,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="535dp"
+        android:layout_height="515dp"
         android:layout_margin="10dp"
         android:gravity="center"
         android:orientation="vertical">
@@ -159,10 +159,10 @@
                 android:id="@+id/textView21"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="Items Bought"
                 android:fontFamily="@font/anton"
+                android:gravity="center"
                 android:letterSpacing="0.055"
+                android:text="Items Bought"
                 android:textColor="#00e3df"
                 android:textSize="27sp" />
 
